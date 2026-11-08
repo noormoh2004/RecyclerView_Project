@@ -1,0 +1,70 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@drawable/product_border"
+    android:layout_marginRight="7dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="3dp"
+    >
+
+    <ImageView
+        android:id="@+id/img_prod"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/name_prod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitzwolf B-CC1 Camera 1080P Hd Webcame"
+        android:textColor="#959595"
+        android:textSize="15sp"
+        android:layout_below="@+id/img_prod"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:padding="5dp"
+
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/name_prod"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    >
+
+    <TextView
+        android:id="@+id/price_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:text="US$48.89"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <ImageButton
+        android:id="@+id/btn_cart"
+        android:layout_width="29dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:background="@color/white"
+        android:src="@drawable/outline_add_shopping_cart_24"
+
+
+        />
+
+
+</LinearLayout>
+</RelativeLayout>
